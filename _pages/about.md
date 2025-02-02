@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher interested in the computational analysis of narrative media and digital culture.
+Nice to meet you :) I am a researcher interested in the computational analysis of narrative media and digital culture.
 
 I received a B.S. in Symbolic Systems from Stanford University, with a concentration in Computational Methods for Literary and Cultural Analytics. My undergraduate honors thesis applied NLP and social network analysis to explore the role of inter-authorial influence within fanfiction communities. Subsequently, I pursued an M.A. in Literary and Cultural Studies at Carnegie Mellon University, where I designed my own concentration in Cultural Analytics.
 
