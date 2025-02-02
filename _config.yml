@@ -149,9 +149,9 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
-    output: true
-    permalink: /:collection/:title/
+  #projects:
+  #  output: true
+  #  permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -197,6 +197,9 @@ exclude:
   - _pages/blog.md
   - _pages/dropdown.md
   - _includes/repository
+  - _projects
+  - _pages/projects.md
+  - _pages/profiles.md
 keep_files:
   - CNAME
   - .nojekyll
