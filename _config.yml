@@ -202,6 +202,7 @@ exclude:
   - _pages/profiles.md
   - _pages/teaching.md
   - _news/announcement_1.md
+  - _news/announcement_3.md
   - _pages/cv.md
 keep_files:
   - CNAME
