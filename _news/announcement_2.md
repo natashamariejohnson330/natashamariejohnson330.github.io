@@ -1,12 +1,12 @@
 ---
 layout: post
-title: I am currently looking for fanfiction to include in a research project
+title: I'm working on a research project that involves fanfiction, and I would be so grateful if you would let me include your stories :) 
 date: 2025-1-30 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+Hi! I'm guessing you've found this page because I left a comments on one of your fanfics. I know that most of you have probably spent hundreds (if not thousands) of hours on your fanfics, 
 
 ---
 
