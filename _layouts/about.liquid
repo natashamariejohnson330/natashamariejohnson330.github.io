@@ -40,6 +40,25 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+<!-- For Fun Section -->
+{% if page.for_fun and page.for_fun.enabled %}
+  <h2>
+    <a href="{{ '/for-fun/' | relative_url }}" style="color: inherit">for fun</a>
+  </h2>
+  <div class="for-fun-section">
+    <div class="for-fun-image">
+      {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
+      {%
+        include figure.liquid loading="eager" path=for_fun_image_path class="img-fluid z-depth-1 rounded"
+        alt="For Fun Image" cache_bust=true
+      %}
+    </div>
+    <div class="for-fun-text">
+      {{ page.for_fun.text }}
+    </div>
+  </div>
+{% endif %}
+
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
