@@ -23,11 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-fanfiction-project",
+          title: "Fanfiction Project",
+          description: "Materials for courses you taught. Replace this text with your description.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/announcement_2/";
+          },
         },{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "news-i-am-currently-looking-for-fanfiction-to-include-in-a-research-project",
-          title: 'I am currently looking for fanfiction to include in a research project',
+          section: "News",},{id: "news-i-39-m-working-on-a-research-project-that-involves-fanfiction-and-i-would-be-so-grateful-if-you-would-let-me-include-your-stories",
+          title: 'I&amp;#39;m working on a research project that involves fanfiction, and I would be...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
