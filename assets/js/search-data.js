@@ -24,11 +24,11 @@ ninja.data = [{
             window.location.href = "/cv/";
           },
         },{id: "nav-fanfiction-project",
-          title: "Fanfiction Project",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          title: "fanfiction project",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/announcement_2/";
+            window.location.href = "/fanfiction/";
           },
         },{id: "news-i-m-working-on-a-project-that-involves-fanfiction-and-i-would-be-very-grateful-if-i-could-include-your-stories",
           title: 'I’m working on a project that involves fanfiction, and I would be very...',
