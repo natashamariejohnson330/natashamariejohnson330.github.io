@@ -27,7 +27,9 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-Nice to meet you :) I am a researcher interested in the computational analysis of narrative media and its digital afterlife. I am fascinated by storytelling genres with communal and derivative elements such as fanfiction, mythological retellings, and genre fiction, and I'm curious about the ways internet communities participate in this collective storytelling. My humanistic inquiry is situated within critical frameworks such as reception studies, formalism, and digital humanities. My computational interests, which are informed by my work in digital humanities and cultural analytics, involve developing and evaluating NLP and network science model for research in these fields.
+Nice to meet you :) I am a researcher interested in the computational analysis of narrative media and its digital afterlife.
+
+I am fascinated by storytelling genres with communal and derivative elements such as fanfiction, mythological retellings, and genre fiction, and I'm curious about the ways internet communities participate in this collective storytelling. My humanistic inquiry is situated within critical frameworks such as reception studies, formalism, and digital humanities. My computational interests, which are informed by my work in digital humanities and cultural analytics, involve developing and evaluating NLP and network science model for research in these fields.
 
 I received a B.S. in Symbolic Systems from Stanford University, with a concentration in Computational Methods for Literary and Cultural Analytics. My undergraduate honors thesis applied NLP and social network analysis to explore the role of inter-authorial influence within fanfiction communities. Subsequently, I pursued an M.A. in Literary and Cultural Studies at Carnegie Mellon University, where I designed my own concentration in Cultural Analytics.
 
