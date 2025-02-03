@@ -16,6 +16,12 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+for_fun:
+  enabled: true
+  image: for_fun.jpg # Replace with your actual image filename
+  text: >
+    Here’s some fun stuff I enjoy! Whether it’s books, music, or creative side projects, this is where I share things that bring me joy.
+
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
