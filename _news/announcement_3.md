@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I'm working on a [project](https://natashamariejohnson330.github.io/publications/) that involves fanfiction, and I would be very grateful if I could include your stories :)
