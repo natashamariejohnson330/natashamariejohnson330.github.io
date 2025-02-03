@@ -23,10 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/fanfiction/";
           },
-        },{id: "news-i-m-working-on-a-project-that-involves-fanfiction-and-i-would-be-very-grateful-if-i-could-include-your-stories",
-          title: 'I’m working on a project that involves fanfiction, and I would be very...',
-          description: "",
-          section: "News",},{id: "news-i-39-m-working-on-a-research-project-that-involves-fanfiction-and-i-would-be-so-grateful-if-you-would-let-me-include-your-stories",
+        },{id: "news-i-39-m-working-on-a-research-project-that-involves-fanfiction-and-i-would-be-so-grateful-if-you-would-let-me-include-your-stories",
           title: 'I&amp;#39;m working on a research project that involves fanfiction, and I would be...',
           description: "",
           section: "News",handler: () => {
