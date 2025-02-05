@@ -48,14 +48,13 @@ layout: default
     <div class="for-fun-section" style="display: flex; align-items: stretch; gap: 15px; margin-bottom: 2rem;">
       <div class="for-fun-image" style="display: flex; align-items: center;">
         {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
-        <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="height: 100%; width: auto; object-fit: cover;" alt="For Fun Image">
+        <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="height: 66%; width: auto; object-fit: cover;" alt="For Fun Image">
       </div>
       <div class="for-fun-text" style="flex-grow: 1;">
         {{ page.for_fun.text | markdownify }}
       </div>
     </div>
   {% endif %}
-
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
