@@ -40,21 +40,23 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-  <!-- For Fun Section -->
-  {% if page.for_fun and page.for_fun.enabled %}
-    <h2 style="margin-bottom: 1rem;">
-      <a href="{{ '/for-fun/' | relative_url }}" style="color: inherit">for fun</a>
-    </h2>
-    <div class="for-fun-section" style="display: flex; align-items: stretch; gap: 15px; margin-bottom: 2rem;">
-      <div class="for-fun-image" style="display: flex; align-items: center;">
-        {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
-        <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="height: 66%; width: auto; object-fit: cover;" alt="For Fun Image">
-      </div>
-      <div class="for-fun-text" style="flex-grow: 1; display: flex; align-items: center;">
-        {{ page.for_fun.text | markdownify }}
-      </div>
+
+<!-- For Fun Section -->
+{% if page.for_fun and page.for_fun.enabled %}
+  <h2 style="margin-bottom: 1rem;">
+    <a href="{{ '/for-fun/' | relative_url }}" style="color: inherit">for fun</a>
+  </h2>
+  <div class="for-fun-section" style="display: flex; align-items: center; gap: 15px; margin-bottom: 2rem;">
+    <div class="for-fun-image" style="flex-shrink: 0; width: %; display: flex; align-items: center;">
+      {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
+      <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="width: 100%; height: auto; object-fit: cover;" alt="For Fun Image">
     </div>
-  {% endif %}
+    <div class="for-fun-text" style="flex-grow: 1; padding-left: 10px;">
+      {{ page.for_fun.text | markdownify }}
+    </div>
+  </div>
+{% endif %}
+
 
 
     <!-- News -->
