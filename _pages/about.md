@@ -18,9 +18,9 @@ social: true # includes social icons at the bottom of the page
 
 for_fun:
   enabled: true
-  image: for_fun.jpg # Replace with your actual image filename
+  image: Nilla.jpg # Replace with your actual image filename
   text: >
-    Here’s some fun stuff I enjoy! Whether it’s books, music, or creative side projects, this is where I share things that bring me joy.
+    Outside of research, I enjoy training my miniature poodle Vanilla (and she enjoys earning treats, so it's a win-win), dabbling in artistic puruits, and exploring the outdoors. I've mostly stuck to physical activities that involve stiff boots--such as hiking and snowboarding--since I permanently broke my foot rockclimbing (which *apparently* doesn't even make you eligible for the paralympics). When I'm too lazy to venture outside, I compose [music](https://youtu.be/KSsZinwyk3U) and practice [visual art](assets/img/drawing.jpg).
 
 announcements:
   enabled: true # includes a list of news items
