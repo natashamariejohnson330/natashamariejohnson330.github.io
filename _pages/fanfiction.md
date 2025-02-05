@@ -25,7 +25,7 @@ We are also planning to include the test set alongside our paper. This would all
 
 **Who else is working on this project**
 
-I'm working on this project with [Emma Strubell](https://strubell.github.io/) and [Amanda Bertsch](https://www.cs.cmu.edu/~abertsch/), a professor and phd student at Carnegie Mellon University. Though it can be *very* scary to let CS people anywhere near your creative material, I want to assure you that these are really cool (and ethical) CS people.
-Emma's two main research focuses are a) how machine learning tools can be made actually useful to non-computer scientists and b) the environmental impact of AI. Thanks to them, I now feel guilty every time I use Chat GPT instead of a thesaurus lol. 
-Amanda's research interests include long-context embeddings (i.e. how can you computationally represent very long texts) and responsible dataset construction (I particularly like [this paper](https://aclanthology.org/2022.gebnlp-1.24.pdf) she wrote about how ML models learn gender biases from the data they are trained on). She also helps run (Queer in AI)[https://www.queerinai.com/].
+I'm working on this project with [Emma Strubell](https://strubell.github.io/) and [Amanda Bertsch](https://www.cs.cmu.edu/~abertsch/).
+Emma is a professor at CMU whose two main research focuses are a) how machine learning tools can be made actually useful to non-computer scientists and b) the environmental impact of AI. Thanks to them, I now feel guilty every time I use Chat GPT instead of a thesaurus lol. 
+Amanda's is a PhD student at CMU and an organizer for [Queer in AI](https://www.queerinai.com/). Her research interests include long-context embeddings (i.e. how long texts can be represented computationally) and responsible dataset construction (I particularly like [this paper](https://aclanthology.org/2022.gebnlp-1.24.pdf) she wrote about how ML models learn gender biases from the data they are trained on).
 
