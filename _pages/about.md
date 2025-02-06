@@ -20,7 +20,7 @@ for_fun:
   enabled: true
   image: Nilla.jpg # Replace with your actual image filename
   text: >
-    Outside of research, I enjoy training my miniature poodle Vanilla, dabbling in artistic pursuits, and exploring the outdoors. I've mostly stuck to physical activities that involve stiff boots--such as hiking and snowboarding--after an escapade with the [Stanford Climbing Team](https://www.instagram.com/stanfordclimbingteam/) resulted in a permanently broken foot (which *apparently* doesn't even make you eligible for the paralympics). When I'm too lazy to venture outside, I compose [music](https://youtu.be/KSsZinwyk3U) and practice [visual art](img/drawing.jpg).
+    Outside of research, I enjoy training my miniature poodle Vanilla, dabbling in artistic pursuits, and exploring the outdoors. I've mostly stuck to physical activities that involve stiff boots--such as hiking and snowboarding--after an escapade with the [Stanford Climbing Team](https://www.instagram.com/stanfordclimbingteam/) resulted in a permanently broken foot (which apparently doesn't make you eligible for the paralympics). When I'm too lazy to venture outside, I write [music](https://youtu.be/KSsZinwyk3U) and practice visual art.
 
 announcements:
   enabled: true # includes a list of news items
