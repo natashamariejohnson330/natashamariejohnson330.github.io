@@ -40,6 +40,27 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
+<style>
+  .for-fun-image img {
+    width: 15%;
+    height: auto;
+  }
+
+  /* Adjust size for tablets */
+  @media (max-width: 768px) {
+    .for-fun-image img {
+      width: 30%; /* Increase size for medium screens */
+    }
+  }
+
+  /* Adjust size for phones */
+  @media (max-width: 480px) {
+    .for-fun-image img {
+      width: 50%; /* Increase size for small screens */
+    }
+  }
+</style>
+
 <!-- For Fun Section -->
 {% if page.for_fun and page.for_fun.enabled %}
   <h2 style="margin-bottom: 1rem;">
