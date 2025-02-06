@@ -40,26 +40,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-<style>
-  .for-fun-image img {
-    width: 15%;
-    height: auto;
-  }
-
-  /* Adjust size for tablets */
-  @media (max-width: 768px) {
-    .for-fun-image img {
-      width: 30%; /* Increase size for medium screens */
-    }
-  }
-
-  /* Adjust size for phones */
-  @media (max-width: 480px) {
-    .for-fun-image img {
-      width: 50%; /* Increase size for small screens */
-    }
-  }
-</style>
 
 <!-- For Fun Section -->
 {% if page.for_fun and page.for_fun.enabled %}
@@ -67,15 +47,17 @@ layout: default
     <a href="{{ '/for-fun/' | relative_url }}" style="color: inherit">for fun</a>
   </h2>
   <div class="for-fun-section" style="display: flex; align-items: center; gap: 15px; margin-bottom: 2rem;">
-    <div class="for-fun-image" style="flex-shrink: 0; width: 15%; display: flex; align-items: center;">
-      {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
-      <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="width: 100%; height: auto; object-fit: cover;" alt="For Fun Image">
-    </div>
+  <div class="for-fun-image" style="flex-shrink: 0; display: flex; align-items: center;">
+    {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
+    {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 | times: 0.55 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+    {% include figure.liquid loading="eager" path=for_fun_image_path class="img-fluid z-depth-1 rounded" sizes=sizes alt="For Fun Image" cache_bust=true %}
+  </div>
     <div class="for-fun-text" style="flex-grow: 1; padding-left: 10px;">
       {{ page.for_fun.text | markdownify }}
     </div>
   </div>
 {% endif %}
+
 
 
     <!-- News -->
