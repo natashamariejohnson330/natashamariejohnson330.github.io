@@ -49,7 +49,7 @@ layout: default
   <div class="for-fun-section" style="display: flex; align-items: center; gap: 15px; margin-bottom: 2rem;">
     <div class="for-fun-image" style="flex-shrink: 0; width: %; display: flex; align-items: center;">
       {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
-      <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="width: 100%; height: auto; object-fit: cover;" alt="For Fun Image">
+      <img src="{{ for_fun_image_path }}" class="img-fluid z-depth-1 rounded" style="width: 10%; height: auto; object-fit: cover;" alt="For Fun Image">
     </div>
     <div class="for-fun-text" style="flex-grow: 1; padding-left: 10px;">
       {{ page.for_fun.text | markdownify }}
