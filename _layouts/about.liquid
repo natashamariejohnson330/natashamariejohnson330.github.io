@@ -47,7 +47,7 @@ layout: default
     <a href="{{ '/for-fun/' | relative_url }}" style="color: inherit">for fun</a>
   </h2>
   <div class="for-fun-section" style="overflow: hidden; margin-bottom: 2rem;">
-  <div class="for-fun-image" style="float: left; margin-right: 15px; width: 15%;">
+  <div class="for-fun-image" style="float: left; margin-right: 15px;">
     {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
     {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 | times: 0.50 }}px, (min-width: 576px) 30vw, 50vw{% endcapture %}
     {% include figure.liquid loading="eager" path=for_fun_image_path class="img-fluid z-depth-1 rounded" sizes=sizes alt="For Fun Image" cache_bust=true %}
