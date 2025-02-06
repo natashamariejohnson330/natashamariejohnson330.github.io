@@ -50,8 +50,7 @@ layout: default
   <div class="for-fun-image" style="float: left; margin-right: 15px;">
     {% assign for_fun_image_path = page.for_fun.image | prepend: 'assets/img/' %}
     {% capture sizes %} (min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 | times: 0.50 }}px, 
-  (max-width: 768px) {{ site.max_width | minus: 30 | times: 0.3 | times: 0.50 }}px, 
-  50vw{% endcapture %}
+  (min-width: 576px) 30vw, 50vw{% endcapture %}
     {% include figure.liquid loading="eager" path=for_fun_image_path class="img-fluid z-depth-1 rounded" sizes=sizes alt="For Fun Image" cache_bust=true %}
   </div>
     <div class="for-fun-text" style="flex-grow: 1; padding-left: 10px;">
