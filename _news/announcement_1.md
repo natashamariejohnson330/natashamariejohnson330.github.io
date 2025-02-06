@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I'm working on a [project involving fanfiction](https://natashamariejohnson330.github.io/fanfiction/), and I would be very grateful if you would let us include your stories. 
