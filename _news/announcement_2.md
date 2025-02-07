@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm working on [a project involving fanfiction](https://natashamariejohnson330.github.io/fanfiction/), and I would be very grateful if you would let me include your stories :)
+<p style="color: black;">I'm working on</p> [a project involving fanfiction](https://natashamariejohnson330.github.io/fanfiction/)<p style="color: black;">, and I would be very grateful if you would let me include your stories :)</p>
