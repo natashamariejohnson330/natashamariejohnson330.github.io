@@ -8,7 +8,9 @@ layout: default
 {% if page._styles %}
   <!-- Page/Post style -->
   <style type="text/css">
-    {{ page._styles }}
+  .post-content, .post-meta, .post-tags, .post-title, .post-header p {
+    color: black !important;
+  }
   </style>
 {% endif %}
 
