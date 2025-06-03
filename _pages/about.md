@@ -23,7 +23,7 @@ for_fun:
     Outside of research, I enjoy training my miniature poodle Vanilla, dabbling in artistic pursuits, and exploring the outdoors. I've mostly stuck to physical activities that involve stiff boots--such as hiking and snowboarding--after an escapade with the [Stanford Climbing Team](https://www.instagram.com/stanfordclimbingteam/) resulted in a permanently broken foot (which apparently doesn't make you eligible for the paralympics). When I'm too lazy to venture outside, I write [music](https://youtu.be/KSsZinwyk3U) and practice visual art.
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
