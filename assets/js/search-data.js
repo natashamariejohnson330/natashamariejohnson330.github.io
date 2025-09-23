@@ -33,4 +33,11 @@ ninja.data = [{
         handler: () => {
           window.open("https://www.linkedin.com/in/natasha-m-johnson", "_blank");
         },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0001-7388-9053", "_blank");
+        },
       },];
