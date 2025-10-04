@@ -20,6 +20,13 @@ ninja.data = [{
           title: 'I’m working on a project involving fanfiction, and I would be very grateful...',
           description: "",
           section: "News",},{
+        id: 'social-bluesky',
+        title: 'Bluesky',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://bsky.app/profile/natashamarie330.bsky.social", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
