@@ -34,17 +34,17 @@ ninja.data = [{
           window.open("mailto:%6E%6D%6A@%61%6C%75%6D%6E%69.%73%74%61%6E%66%6F%72%64.%65%64%75", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/natasha-m-johnson", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0009-0001-7388-9053", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=5Aw0Q1EAAAAJ", "_blank");
         },
       },];
