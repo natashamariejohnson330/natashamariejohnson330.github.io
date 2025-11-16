@@ -33,9 +33,9 @@ announcements:
 #  limit: 3 # leave blank to include all the blog posts
 ---
 
-Nice to meet you :) I am a researcher interested in the computational analysis of narrative media and its digital afterlife.
+Nice to meet you :) I am a researcher interested in the computational analysis of narrative media and culture.
 
-I am fascinated by storytelling genres with communal and derivative elements such as fanfiction, mythological retellings, and genre fiction, and I'm curious about the ways internet communities participate in this collective storytelling. My humanistic inquiry is situated within critical frameworks such as reception studies, formalism, feminist and queer studies, and digital humanities. My computational interests, which are informed by my work in digital humanities and cultural analytics, involve developing and evaluating NLP and network science models for research in these fields.
+I am fascinated by storytelling genres with communal and derivative elements such as genre fiction, mythological retellings, and fanfiction, and I'm curious about the ways internet communities participate in this collective storytelling. My humanistic inquiry is situated within critical frameworks such as reception studies, formalism, and feminist and queer studies. My computational interests, which are informed by my work in digital humanities and cultural analytics, involve developing and evaluating NLP and network science models for research in these fields.
 
 I received a B.S. in Symbolic Systems from Stanford University, with a concentration in Computational Methods for Literary and Cultural Analytics. Throughout undergrad, I worked as a Research Assistant for the [Stanford Literary Lab](https://litlab.stanford.edu/) under [Mark Algee-Hewitt](http://markalgeehewitt.org/). My undergraduate honors thesis, advised by Algee-Hewitt and [Daniel Jurafsky](https://web.stanford.edu/~jurafsky/), applied NLP and social network analysis to explore the role of inter-authorial influence within fanfiction communities. Subsequently, I pursued an M.A. in Literary and Cultural Studies at Carnegie Mellon University, where I designed my own concentration in Cultural Analytics.
 
