@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "news-i-m-working-on-a-project-involving-fanfiction-and-i-would-be-very-grateful-if-you-would-let-me-include-your-stories",
-          title: 'I’m working on a project involving fanfiction, and I would be very grateful...',
+        },{id: "news-i-ll-be-presenting-my-paper-on-genre-form-and-prestige-https-arxiv-org-abs-2511-10546-at-chr-2025-registration-https-2025-computational-humanities-research-org-venue-registration-for-the-conference-is-free-for-students-and-ends-nov-20th",
+          title: 'I’ll be presenting my paper on genre, form, and prestige [https://arxiv.org/abs/2511.10546] at CHR...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
