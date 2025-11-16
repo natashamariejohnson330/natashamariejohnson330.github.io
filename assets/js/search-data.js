@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "news-i-ll-be-presenting-my-paper-on-genre-form-and-prestige-https-arxiv-org-abs-2511-10546-at-chr-2025-registration-https-2025-computational-humanities-research-org-venue-registration-for-the-conference-is-free-for-students-and-ends-nov-20th",
-          title: 'I’ll be presenting my paper on genre, form, and prestige [https://arxiv.org/abs/2511.10546] at CHR...',
+        },{id: "news-i-ll-be-presenting-my-paper-on-genre-and-form-at-chr-2025-registration-https-2025-computational-humanities-research-org-venue-registration-for-the-conference-is-free-for-students-and-ends-nov-20th",
+          title: 'I’ll be presenting my paper on genre and form at CHR 2025. [Registration]...',
           description: "",
           section: "News",},{
         id: 'social-bluesky',
