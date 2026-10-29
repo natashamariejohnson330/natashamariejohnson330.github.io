@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2026-04-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I'm working on a [project](https://natashamariejohnson330.github.io/publications/) that involves fanfiction, and I would be very grateful if I could include your stories :)
+This fall, I will be starting a PhD in Computer Science at Northeastern University, where I am honored to have been named a Khoury Distinguished Scholar
