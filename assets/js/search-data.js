@@ -19,6 +19,9 @@ ninja.data = [{
         },{id: "news-i-ll-be-presenting-my-paper-on-genre-and-form-at-chr-2025-registration-for-the-conference-is-free-for-students-and-ends-nov-20th",
           title: 'I’ll be presenting my paper on genre and form at CHR 2025. Registration...',
           description: "",
+          section: "News",},{id: "news-this-fall-i-will-be-starting-a-phd-in-computer-science-at-northeastern-university-where-i-am-honored-to-have-been-named-a-khoury-distinguished-scholar",
+          title: 'This fall, I will be starting a PhD in Computer Science at Northeastern...',
+          description: "",
           section: "News",},{
         id: 'social-bluesky',
         title: 'Bluesky',
